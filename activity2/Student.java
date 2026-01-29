@@ -1,5 +1,5 @@
-package Activity2;
-public class Student {
+package activity2;
+    public class Student {
     String firstName;
     String middleName;
     String lastName;
@@ -7,7 +7,7 @@ public class Student {
     String Email;
     int StudentId;
 
-    public int totalStudent = 0;
+    public static int totalStudent = 0;
    
     public Student(String Firstname, String Middlename, String Lastname, String Gender, String Email, int StudentId){
         

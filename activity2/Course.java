@@ -1,5 +1,4 @@
-package Activity2;
-
+package activity2;
 public class Course {
     String courseCode;
     String courseTitle;
@@ -30,7 +29,15 @@ public class Course {
         System.out.println("Course Code: " + courseCode);
         System.out.println("Course Title" + courseTitle);
         System.out.println("Enrolled Students");
+
+        for (int i = 0; i < enrollementCount; i++) {
+        enrolledStudents[i].studentInfo();
+        System.out.println("\n");
     }
+
+        
+    }
+    
 
 
     public static String getSchoolName(){
