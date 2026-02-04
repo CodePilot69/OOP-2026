@@ -1,4 +1,4 @@
-package activity1;
+
 public class main{
     public static void main(String[]args){
         Motor ver1 = new Motor();

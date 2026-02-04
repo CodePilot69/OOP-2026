@@ -1,4 +1,4 @@
-package practiceWeek2;
+package practice;
 
 public class Book {
     

@@ -1,4 +1,4 @@
-package Activity2.pRACTICE;
+package practice;
 
 public class Circle {
 

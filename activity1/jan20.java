@@ -1,4 +1,4 @@
-package activity1;
+
 
 public class jan20 {
     public static void main(String[] args) {

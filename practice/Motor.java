@@ -1,3 +1,5 @@
+package practice;
+
 public class Motor {
     String brand;
     String version;

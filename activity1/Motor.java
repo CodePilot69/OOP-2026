@@ -1,4 +1,4 @@
-package activity1;
+
 public class Motor {
     String brand;
     String version;
