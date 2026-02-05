@@ -1,3 +1,4 @@
+package activity3;
 import java.time.LocalDateTime;
 
 public class Activity3 {
@@ -17,35 +18,42 @@ public class Activity3 {
             this.lastMissionCompletionTime = null;
         }
 
-        public String agentName(){
+        public String getAgentName() {
             return agentId;
         }
 
-        public String codeName(){
+        public String getCodeName() {
             return codeName;
         }
 
-        public int clearanceLevel(){
+        public int getClearanceLevel() {
             return clearanceLevel;
         }
 
-        public boolean onMission(){
+        public boolean GetOnMission() {
             return onMission;
 
         }
 
-        public LocalDateTime lastMissionCompletionTime(){
+        public LocalDateTime lastMissionCompletionTime() {
             return lastMissionCompletionTime;
         }
 
-        public void setClearanceLevel(int level){
-            if(level >  1 || level <= 5){
+        public void setClearanceLevel(int level) {
+            if (level > 1 || level <= 5) {
                 this.clearanceLevel = level;
-                else {
-                    System.out.println("Invalid clearance level.");
-                }
+            } else {
+                System.out.println("Invalid clearance level.");
             }
 
         }
+
+        public boolean startMission(){
+            return onMission = true;
+        }
+        public boolean completeMission(){
+            return onMission = false;
+        }
+        
     }
 }
